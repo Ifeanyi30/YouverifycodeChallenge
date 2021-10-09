@@ -24,9 +24,9 @@ def test_str_compress():
 def test_is_unique():
 
     assert is_unique("time") == True
-    assert is_unique("teenager") == False
-    assert is_unique("stream") == True
     assert is_unique("Eagle") == False
+    assert is_unique("stream") == True
+    assert is_unique("teenager") == False
 
 
 def test_one_away():

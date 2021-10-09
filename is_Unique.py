@@ -12,11 +12,13 @@ def is_unique(word):
     -------
     Returns a boolean type of either True or False
     """
-    unique_char = []
+    char_list = [i for i in word.lower()]
 
-    for char in word:
-        if char not in unique_char:
-            unique_char.append(char)
-        else:
-            return False
-    return True
+    unique_char = set(char_list)
+
+    if len(unique_char) == len(char_list):
+        return True
+    return False
+
+
+print(is_unique("Eagle"))
