@@ -19,6 +19,3 @@ def is_unique(word):
     if len(unique_char) == len(char_list):
         return True
     return False
-
-
-print(is_unique("Eagle"))
