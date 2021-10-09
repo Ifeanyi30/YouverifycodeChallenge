@@ -50,16 +50,3 @@ def str_compressed(string):
     else:
         return result_str
 
-
-def main():
-    print(str_compressed("aabcccccaaa"))
-
-    print(str_compressed("bbbbbbuuffffjjjaattttyyyyjjj"))
-
-    print(str_compressed("abcdefghi"))
-
-    print(str_compressed("a/"))
-
-
-if __name__ == "__main__":
-    main()
