@@ -17,6 +17,3 @@ def one_away(str1, str2):
     if wrd_len_1 - 1 == char_check:
         return True
     return False
-
-
-print(one_away("palfde", "pal"))
