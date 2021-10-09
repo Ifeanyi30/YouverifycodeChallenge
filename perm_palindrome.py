@@ -52,6 +52,3 @@ def perm_palindrome(string):
         return even_count * even == wrd_len or ((even_count * even) + odd == wrd_len)
     else:
         return False
-
-
-print(perm_palindrome("tac"))
